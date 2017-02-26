@@ -1,0 +1,6 @@
+[run]
+branch = True
+source = pynotedb
+
+[report]
+ignore_errors = True
