@@ -2,11 +2,37 @@
 pynotedb
 ===============================
 
-python parser for NoteDB
+This will be a python parser for NoteDB. This repository is currently empty.
 
-Please fill here a long description which must be at least 3 lines wrapped on
-80 cols, so that distribution package maintainers can use it in their packages.
-Note that this is a hard requirement.
+About NoteDB
+------------
+
+NoteDB is a way of organising review content so that it is stored as 
+git objects in the same git repo as the code,
+originally created by the people at gerrit. See here for more:
+
+https://gerrit.googlesource.com/homepage/+/md-pages/docs/Notedb.md
+
+This project
+------------
+
+This is a WIP python NoteDB parser.
+
+The goal is to make an API that can be used for code review,
+for cases when teams wish to keep the details of review in the same place as 
+the code. By providing an API for NoteDB specifically, 
+there are multiple benefits, eg: review metadata is preserved if the code 
+is moved and offline code review is possible.
+
+The API itself will provide a pluggable interface for interacting with review 
+metadata, allowing people to more easily extend the ecosystem around code 
+review with custom components, and communicate with existing review systems.
+
+The existing implementations for NoteDB parsers and APIs are in Java and Perl.
+As python is a popular language, this python version is intended for better
+interoperability with existing tools written in python.
+Also, perl-notedb is licensed under GPLv2, so this repo is intended to have a 
+more permissive license, to allow for wider use.
 
 * Free software: Apache license
 * Documentation: http://docs.openstack.org/developer/pynotedb
