@@ -31,8 +31,6 @@ review with custom components, and communicate with existing review systems.
 The existing implementations for NoteDB parsers and APIs are in Java and Perl.
 As python is a popular language, this python version is intended for better
 interoperability with existing tools written in python.
-Also, perl-notedb is licensed under GPLv2, so this repo is intended to have a 
-more permissive license, to allow for wider use.
 
 * Free software: Apache license
 * Documentation: http://docs.openstack.org/developer/pynotedb
