@@ -13,6 +13,8 @@ originally created by the people at gerrit. See here for more:
 
 https://gerrit.googlesource.com/homepage/+/md-pages/docs/Notedb.md
 
+https://github.com/CodethinkLabs/pynotedb/blob/master/rfc.mkd
+
 This project
 ------------
 
